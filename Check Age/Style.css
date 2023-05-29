@@ -1,0 +1,39 @@
+body{
+    background: lightblue;
+}
+
+h1{
+    text-align: center;
+}
+
+p#ano{
+    padding: 20px 0px 0px 15px;
+}
+
+p#sexo{
+    padding-left: 15px;
+}
+
+input#verificar{
+    margin-left: 15px;
+}
+
+p#result{
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    max-width: 600px;
+    max-height: 450px;
+    margin: auto;
+    box-shadow: 1px 1px 5px #00000097;
+    
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}

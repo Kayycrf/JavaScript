@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+body{
+    background: lightblue;
+    font: normal 18pt Arial;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    margin: auto;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #00000095;
+    padding: 20px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+#inicio, #fim, #passo{
+    border-radius: 3px;
+}
+
+#contar{
+    font-size: 20px;;
+} 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Peso ideal</title>
+    <link rel="stylesheet" href="style.css">
+   <meta name = "viewport"content = "width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <header>
+        <h1> Peso ideal </h1>
+        <p id="pp"> Informe seu peso e sua altura para saber se estão ideais de acordo com o IMC (Índice de massa corporal) ! </p>
+        </header>
+        <div class="infos">
+            <p class="infos" id="infos"> Informações de pontuação: </p>         
+            <ul>
+                <li> Abaixo de <strong> 18.5</strong>: Abaixo do peso ideal </li>
+                <li> Entre <strong> 18.5 </strong> e <strong> 25 </strong>: Peso ideal</li>
+                <li> Entre <strong> 25 </strong> e <strong> 30 </strong>: Sobrepeso </li>
+                <li> Entre <strong> 30 </strong> e <strong> 40 </strong>: Obesidade</li>
+                <li> Acima de <strong> 40 </strong>: Obesidade mórbida </li>
+        </ul>
+        </div>
+        <section>
+            <p> Dados </p>            
+            <div> Informe seu peso <input type="number" id="peso"></div>
+            <div> Informe sua altura <input type="number" id="altura"></div>
+            <div> <input onclick="calcular()" type="button" value="Calcular" id="calc"></div>
+            <div> <p> Obs: Utilize "." para separação de casa decimal</p> </div>
+            <div id="res"></div>
+        </section>
+        <script src="script.js"></script>
+</body>
+</html>

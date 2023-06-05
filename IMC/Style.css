@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+}
+
+#pp{
+    display: inline-block;
+    max-width: 450px;
+}
+
+.infos{
+    margin: auto;
+    max-width: 450px;
+    background: #5bcf117c;
+    border-radius: 10px;
+}
+
+#infos{
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    background: #2657077c;
+}
+
+li{
+    padding-bottom: 3px;
+}
+
+section{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #27272773;
+    max-width: 450px;
+    margin: auto;    
+    background: linear-gradient(to right, #5bcf117c, #80ff839b);
+}
+
+section > p{
+    font-size: 20px;
+    font-family: 'Open Sans Bold', sans-serif;
+    text-align: center;
+    background: #2657077c;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section > div{
+    padding: 5px 0px 3px 15px;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#peso, #altura{
+    width: 100px;
+}
+
+#calc{
+    font-size: 15px;
+}
+
+#res{
+    font-size: 17px;
+    font-family: 'Open Sans Bold', sans-serif;
+    padding: 5px 5px 5px 15px;
+}
